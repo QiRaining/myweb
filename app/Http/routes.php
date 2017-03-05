@@ -1,5 +1,7 @@
 <?php
-
+Route::get('/','StaticPagesController@hose');
+Route::get('/help','StaticPagesController@help');
+Route::get('/about','StaticPagesController@about');
 /*
 |--------------------------------------------------------------------------
 | Application Routes
